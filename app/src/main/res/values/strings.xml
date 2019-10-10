@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CalculoDeMedia</string>
+    <string name="disciplina">Disciplina</string>
+    <string name="hint_disciplina">Digite o nome da disciplina</string>
+    <string name="erro_disciplina_obrigatorio">Nome da disciplina é obrigatório</string>
+    <string name="erro_nota_obrigatoria">Nota é obrigatória</string>
+    <string name="media1">Media: </string>
+    <string name="media2">Media: </string>
+    <string name="nota">Nota </string>
+    <string name="nota2">Nota 2</string>
+    <string name="nota1">Nota 1</string>
+</resources>

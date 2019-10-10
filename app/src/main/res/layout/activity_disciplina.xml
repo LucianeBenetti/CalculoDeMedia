@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/container"
+    tools:context=".view.DisciplinaActivity">
+
+    <TextView
+        style="@style/TextView"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:id="@+id/avalicao"/>
+
+    <EditText
+        style="@style/EditTextDisciplina"
+        android:hint="@string/hint_disciplina"
+        android:id="@+id/editNomeDisciplina"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editNota1"
+            android:hint="@string/nota"
+            android:gravity="center"
+            style="@style/EditTextNotas"/>
+
+        <EditText
+            android:id="@+id/editNota2"
+            style="@style/EditTextNotas"
+            android:gravity="center"
+            android:hint="@string/nota" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:orientation="horizontal">
+        <Button
+            style="@style/ButtonNotas"
+            android:text="Enviar"
+            android:onClick="enviar"/>
+
+        <Button
+            style="@style/ButtonNotas"
+            android:text="Cancelar"
+            android:onClick="cancelar"/>
+    </LinearLayout>
+</LinearLayout>

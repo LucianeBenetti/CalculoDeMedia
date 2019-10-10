@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/container"
+    tools:context=".view.ResultadoActivity">
+
+    <TextView
+        android:text="Resultado Final"
+        style="@style/TVResultado" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvAvaliacao1"
+            style="@style/TextView"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Avaliacao1" />
+
+        <LinearLayout
+            style="@style/LinearLayoutTVResultado"
+            android:background="#e0f2f1"
+            android:layout_width="285dp">
+
+            <TextView
+                android:id="@+id/tvDisciplina1"
+                style="@style/TextView"
+                android:text="@string/disciplina" />
+
+            <TextView
+                android:id="@+id/tvNota1D1"
+                style="@style/TextView"
+                android:text="@string/nota1" />
+
+            <TextView
+                android:id="@+id/tvNota2D1"
+                style="@style/TextView"
+                android:text="@string/nota2" />
+
+            <TextView
+                android:id="@+id/tvMediaD1"
+                style="@style/TextView"
+                android:text="@string/media1" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvAvaliacao2"
+            style="@style/TextView"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Avaliacao2" />
+
+        <LinearLayout
+            style="@style/LinearLayoutTVResultado"
+            android:background="#e0f2f1"
+            android:layout_marginTop="15dp"
+            android:layout_width="287dp">
+
+            <TextView
+                android:id="@+id/tvDisciplina2"
+                style="@style/TextView"
+                android:text="@string/disciplina" />
+
+            <TextView
+                android:id="@+id/tvNota1D2"
+                style="@style/TextView"
+                android:text="@string/nota1" />
+
+            <TextView
+                android:id="@+id/tvNota2D2"
+                style="@style/TextView"
+                android:text="@string/nota2" />
+
+            <TextView
+                android:id="@+id/tvMediaD2"
+                style="@style/TextView"
+                android:text="@string/media2" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        style="@style/btn_sucesso"
+        android:text="Voltar"
+        android:onClick="voltar"/>
+
+</LinearLayout>

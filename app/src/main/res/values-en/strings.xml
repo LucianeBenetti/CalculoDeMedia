@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CalculoDeMedia</string>
+    <string name="disciplina">Discipline</string>
+    <string name="erro_disciplina_obrigatorio">Name of the discipline is mandatory</string>
+    <string name="erro_nota_obrigatoria">Note is mandatory</string>
+    <string name="hint_disciplina">Enter the name of the discipline</string>
+    <string name="media1">Media</string>
+    <string name="media2">Media</string>
+    <string name="nota">Note</string>
+    <string name="nota1">Note 1</string>
+    <string name="nota2">Note 2</string>
+</resources>
